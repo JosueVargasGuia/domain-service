@@ -18,7 +18,7 @@ class DomainServiceApplicationTests {
 		accounts.setIdAccount(null);
 		accounts.setIdBankAccount(null);
 		accounts.setIdCustomer(null);
-		accounts.setIdProducto(null);
+		accounts.setIdProduct(null);
 		accounts.setTypeOfCurrency(null);
 		CreditAccount creditAccount=new CreditAccount();
 		creditAccount.setAccountNumber(null);

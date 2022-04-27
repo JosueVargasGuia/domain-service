@@ -17,7 +17,7 @@ import lombok.Setter;
 @Builder
 @Data
 @Document(collection = "credit")
-public class Credit {
+public class CreditOld {
 	@Id
 	private Long idCredit;
 	private Long idCustomer;

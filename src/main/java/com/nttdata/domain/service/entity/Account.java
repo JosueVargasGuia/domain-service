@@ -17,12 +17,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@AllArgsConstructor 
 @Data
-@Document(collection = "account")
-public class Account {
-	@Id
+//@Document(collection = "account")
+public abstract class Account {	 
 	private Long idAccount;
 	private Long idCustomer;
 	private typeOfCurrency typeOfCurrency;

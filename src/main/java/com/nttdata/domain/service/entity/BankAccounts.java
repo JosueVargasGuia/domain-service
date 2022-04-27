@@ -1,6 +1,9 @@
 package com.nttdata.domain.service.entity;
 
-import java.util.Date;
+ 
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
  
@@ -10,9 +13,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor  
+@AllArgsConstructor
+ @Document(collection = "BankAccounts")
  public final class BankAccounts extends Account{
+	@Id
 	private Long idBankAccount;
-	private Long idProducto;
-	private Long idAccount;
+	private Long idProduct;
+	//private Long idAccount;
 }
