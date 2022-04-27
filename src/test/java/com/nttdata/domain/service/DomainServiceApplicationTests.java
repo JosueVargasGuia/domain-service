@@ -22,7 +22,7 @@ class DomainServiceApplicationTests {
 		accounts.setTypeOfCurrency(null);
 		CreditAccount creditAccount=new CreditAccount();
 		creditAccount.setAccountNumber(null);
-		creditAccount.setAmountCreditLimit(0);
+		creditAccount.setAmountCreditLimit(null);
 		creditAccount.setCreationDate(null);
 		creditAccount.setDateModified(null);
 		creditAccount.setIdAccount(null);
