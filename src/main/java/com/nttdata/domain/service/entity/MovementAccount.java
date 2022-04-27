@@ -29,7 +29,7 @@ public class MovementAccount {
 	private Double amount;
 	private Date dateMovementAccount;
 	private TypeMovementAccount typeMovementAccount;
-	double commissionForTransaction;
+	private Double commissionForTransaction;
 	private Date creationDate;
 	private Date dateModified;
 }
