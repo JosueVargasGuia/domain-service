@@ -13,6 +13,6 @@ import lombok.Setter;
 @AllArgsConstructor  
  public final class BankAccounts extends Account{
 	private Long idBankAccount;
-	private Long IdProducto;
+	private Long idProducto;
 	private Long idAccount;
 }
