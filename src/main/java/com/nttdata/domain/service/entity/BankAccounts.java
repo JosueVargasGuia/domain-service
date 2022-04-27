@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor  
-public class BankAccounts extends Account{
+ public final class BankAccounts extends Account{
 	private Long idBankAccount;
 	private Long IdProducto;
 	private Long idAccount;
