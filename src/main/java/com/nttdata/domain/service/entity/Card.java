@@ -30,7 +30,10 @@ public class Card {
 	private Date expirationDate;
 	private String cvv;
 	private String password;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy HH:mm:ss") 
 	private Date creationDate;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy HH:mm:ss")
 	private Date dateModified;
+	
 }
 //https://www.tutorialspoint.com/jackson_annotations/jackson_annotations_jsonformat.htm
