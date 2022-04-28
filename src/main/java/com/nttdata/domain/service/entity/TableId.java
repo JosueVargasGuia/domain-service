@@ -13,8 +13,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "tableId")
 @Data
+@Document(collection = "tableId")
 public class TableId {
 	@Id
 	private String nameTable;
