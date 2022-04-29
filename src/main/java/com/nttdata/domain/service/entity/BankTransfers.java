@@ -2,6 +2,7 @@ package com.nttdata.domain.service.entity;
 
 import java.util.Date;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -21,6 +22,7 @@ import lombok.Setter;
 @Data
 @Document(collection = "bank-transfers")
 public class BankTransfers {
+	@Id
 	private Long idBankTransfers;
 	private Long idBankAccount;
 	private Long idCreditAccount;
